@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sinapsis</title>
+<meta name="description" content="Sinapsis reúne tus correos en un solo lugar, los clasifica con IA y te dice qué tienes pendiente.">
+<style>
+  :root { --fondo: #fff; --texto: #1a1a1a; --suave: #5c5c5c; --linea: #d8d8d8; --enlace: #1d4ed8; }
+  @media (prefers-color-scheme: dark) { :root { --fondo: #111; --texto: #ececec; --suave: #a3a3a3; --linea: #333; --enlace: #8ab4ff; } }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.6 system-ui, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 4rem 1.25rem; }
+  h1 { font-size: 2.6rem; letter-spacing: -0.03em; margin: 0 0 .5rem; }
+  h2 { font-size: 1.15rem; margin: 2.5rem 0 .5rem; }
+  p, li { color: var(--suave); }
+  .lead { font-size: 1.2rem; color: var(--texto); }
+  a { color: var(--enlace); }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--linea); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sinapsis</h1>
+  <p class="lead">Para quien maneja varios correos y no logra estar pendiente de todo.</p>
+  <p>Conectas tus cuentas, eliges qué carpetas o etiquetas quieres organizar y Sinapsis arma una sola lista de lo que tienes pendiente.</p>
+
+  <h2>Qué hace</h2>
+  <ul>
+    <li>Clasifica cada correo de las carpetas que elijas: requiere acción, para leer o informativo.</li>
+    <li>Escribe un resumen, le asigna una prioridad y lo ubica en una categoría.</li>
+    <li>Saca los pendientes que el correo te pide, con fecha límite cuando la trae, y los reúne en un tablero de todas tus cuentas.</li>
+    <li>Marca la categoría en tu cuenta: en Gmail, con una etiqueta <code>Org/&lt;categoría&gt;</code>.</li>
+  </ul>
+
+  <h2>Qué nunca hace</h2>
+  <ul>
+    <li>No responde ni envía correos.</li>
+    <li>No borra ni archiva nada de tu cuenta.</li>
+    <li>No lee carpetas ni etiquetas que no hayas elegido.</li>
+  </ul>
+
+  <h2>Cuentas compatibles</h2>
+  <p>Gmail, conectando con tu cuenta de Google, y cualquier otro correo que ofrezca IMAP, con una contraseña de aplicación.</p>
+  <p>Para Gmail, Sinapsis pide el permiso <code>gmail.modify</code>. Google lo describe como «leer, redactar y enviar», pero Sinapsis solo lo usa para leer los correos que elegiste y ponerles su etiqueta de categoría.</p>
+
+  <footer>
+    <a href="privacidad.html">Política de privacidad</a> ·
+    Contacto: <a href="mailto:cc5624746@gmail.com">cc5624746@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>

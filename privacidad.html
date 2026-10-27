@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Sinapsis</title>
+<meta name="description" content="Qué datos de tu correo usa Sinapsis, para qué, con quién se comparten y cómo borrarlos.">
+<style>
+  :root { --fondo: #fff; --texto: #1a1a1a; --suave: #4a4a4a; --linea: #d8d8d8; --enlace: #1d4ed8; }
+  @media (prefers-color-scheme: dark) { :root { --fondo: #111; --texto: #ececec; --suave: #b5b5b5; --linea: #333; --enlace: #8ab4ff; } }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.65 system-ui, sans-serif; }
+  main { max-width: 44rem; margin: 0 auto; padding: 3.5rem 1.25rem; }
+  h1 { font-size: 2.2rem; letter-spacing: -0.03em; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .5rem; }
+  p, li { color: var(--suave); }
+  .fecha { font-size: .95rem; }
+  a { color: var(--enlace); }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--linea); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad</h1>
+  <p class="fecha">Sinapsis · Última actualización: 27 de octubre de 2026</p>
+
+  <p>Sinapsis es una plataforma que reúne tus cuentas de correo, clasifica los mensajes con inteligencia artificial y te muestra qué tienes pendiente. Esta política explica qué datos usa, para qué, con quién se comparten y cómo borrarlos. Está en fase de piloto, y si algo cambia, se actualiza aquí.</p>
+
+  <h2>1. Qué datos usamos</h2>
+  <ul>
+    <li><strong>Tu cuenta de Sinapsis:</strong> nombre, correo y una clave (guardada solo como hash).</li>
+    <li><strong>Tus cuentas de correo conectadas:</strong> la dirección de cada cuenta y los nombres de sus etiquetas o carpetas.</li>
+    <li><strong>Los mensajes de las etiquetas o carpetas que elijas</strong>, de los últimos 30 días: remitente, asunto, fecha y contenido. No leemos nada fuera de esa selección.</li>
+    <li><strong>Lo que Sinapsis genera a partir de ellos:</strong> tipo de correo, categoría, prioridad, resumen y pendientes.</li>
+  </ul>
+
+  <h2>2. Para qué los usamos</h2>
+  <p>Solo para ofrecerte el servicio: clasificar los mensajes, resumirlos, extraer los pendientes que te piden y mostrártelos en tu tablero. No los usamos para publicidad, no los vendemos y no los usamos para entrenar modelos propios.</p>
+
+  <h2>3. Qué hacemos en tu cuenta de correo</h2>
+  <p>Sinapsis lee los mensajes que elegiste y refleja su categoría en tu cuenta: en Gmail, con una etiqueta <code>Org/&lt;categoría&gt;</code>; por IMAP, copiando el mensaje a una carpeta <code>Org/&lt;categoría&gt;</code>. Sinapsis <strong>nunca responde, envía, borra ni archiva</strong> tus correos. Para Gmail pide el permiso <code>gmail.modify</code> porque Google clasifica así el poner etiquetas; solo se usa para leer y etiquetar.</p>
+
+  <h2>4. Con quién se comparten</h2>
+  <p>El remitente, el asunto y los primeros 8.000 caracteres del contenido de cada mensaje se envían a un proveedor de inteligencia artificial, Google Gemini o Anthropic Claude según cómo esté configurada la plataforma, únicamente para clasificarlo. Ese proveedor trata los datos según sus propias condiciones, que dependen del plan contratado. No los compartimos con nadie más, salvo que una ley nos obligue.</p>
+
+  <h2>5. Uso de la información que recibimos de Google</h2>
+  <p>El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google se ajustará a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Datos de Usuario de los Servicios de las API de Google</a>, incluidos los requisitos de Uso Limitado.</p>
+  <p lang="en">Sinapsis's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <p>Ninguna persona lee el contenido de tus correos, salvo que tú lo pidas para recibir soporte, que sea necesario por seguridad o abuso, o que lo exija la ley.</p>
+
+  <h2>6. Cómo protegemos tus datos</h2>
+  <p>Las credenciales de tus cuentas (el token de Google o la contraseña de aplicación de IMAP) se guardan cifradas con AES-256-GCM y la plataforma nunca las devuelve. Cada consulta se limita a los datos de la persona que inició sesión.</p>
+
+  <h2>7. Cuánto tiempo los guardamos y cómo borrarlos</h2>
+  <ul>
+    <li>Guardamos los datos mientras la cuenta de correo siga conectada.</li>
+    <li>Al pulsar <strong>Desconectar</strong> en la pantalla Cuentas, se borran de Sinapsis esa cuenta con sus correos y pendientes. Tu correo no cambia, y las etiquetas o carpetas <code>Org/…</code> que Sinapsis creó se quedan ahí hasta que las borres tú.</li>
+    <li>Para borrar también tu usuario de Sinapsis, escribe al correo de contacto y lo eliminamos.</li>
+    <li>Puedes revocar el acceso a tu cuenta de Google en cualquier momento desde <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  </ul>
+
+  <h2>8. Contacto</h2>
+  <p>Para cualquier pregunta o solicitud sobre tus datos: <a href="mailto:cc5624746@gmail.com">cc5624746@gmail.com</a>.</p>
+
+  <footer><a href="index.html">Volver a Sinapsis</a></footer>
+</main>
+</body>
+</html>
